@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" href="./img/pokemon-logo-black-transparent.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>PokeCiclo</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css"
+        integrity="sha512-9YHSK59/rjvhtDcY/b+4rdnl0V4LPDWdkKceBl8ZLF5TB6745ml1AfluEU6dFWqwDw9lPvnauxFgpKvJqp7jiQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<body>
+    <header>
+        <a href="" class="logo"><img src="./img/International_Pokémon_logo.svg.png" style="width: 40%;" alt=""></a>
+
+        <div class="end-bx">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="" class="categorias">Categories</a>
+                    <ul class="nav-list">
+                        <li class="nav-item"><button class="btn btn-header" id="ver-todos">Ver todos</button></li>
+                        <li class="nav-item"><button class="btn btn-header normal" id="normal">Normal</button></li>
+                        <li class="nav-item"><button class="btn btn-header fire" id="fire">Fire</button></li>
+                        <li class="nav-item"><button class="btn btn-header water" id="water">Water</button></li>
+                        <li class="nav-item"><button class="btn btn-header grass" id="grass">Grass</button></li>
+                        <li class="nav-item"><button class="btn btn-header electric" id="electric">Electric</button></li>
+                        <li class="nav-item"><button class="btn btn-header ice" id="ice">Ice</button></li>
+                        <li class="nav-item"><button class="btn btn-header fighting" id="fighting">Fighting</button></li>
+                        <li class="nav-item"><button class="btn btn-header poison" id="poison">Poison</button></li>
+                        <li class="nav-item"><button class="btn btn-header ground" id="ground">Ground</button></li>
+                        <li class="nav-item"><button class="btn btn-header flying" id="flying">Flying</button></li>
+                        <li class="nav-item"><button class="btn btn-header psychic" id="psychic">Psychic</button></li>
+                        <li class="nav-item"><button class="btn btn-header bug" id="bug">Bug</button></li>
+                        <li class="nav-item"><button class="btn btn-header rock" id="rock">Rock</button></li>
+                        <li class="nav-item"><button class="btn btn-header ghost" id="ghost">Ghost</button></li>
+                        <li class="nav-item"><button class="btn btn-header dark" id="dark">Dark</button></li>
+                        <li class="nav-item"><button class="btn btn-header dragon" id="dragon">Dragon</button></li>
+                        <li class="nav-item"><button class="btn btn-header steel" id="steel">Steel</button></li>
+                        <li class="nav-item"><button class="btn btn-header fairy" id="fairy">Fairy</button></li>
+                    </ul>
+                </li>
+                <li><a href="about">About</a></li>
+                <li><a href="/login/logout">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <section id="hero_section" class="top_cont_outer">
+        <div class="hero_wrapper">
+            <div class="container">
+                <div class="hero_section">
+                    <div class="row">
+                        <div class="col-lg-5 col-sm-7">
+                            <div class="top_left_cont zoomIn wow animated">
+                                <h2>Descubre cada detalle de tus <strong>Pokémon</strong> favoritos</h2>
+                                <p>La Pokédex es tu guía para convertirte en un experto en el mundo Pokémon. Aprende
+                                    sobre la historia, la biología y el comportamiento de cada criatura.</p>
+                                <button class="scroll-btn" onclick="scrollToElement('#main-section')">Ir a la
+                                    Pokédex</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-sm-5">
+                            <img src="./img/1254x800-Thunderbolt-Drawing-Pikachu-Wallpaper-Pokemon-imagen.png"
+                                class="zoomIn wow animated" style="width: 100%; " alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main id="main-section">
+        <div id="todos">
+            <div class="pokemon-todos" id="listaPokemon">
+
+            </div>
+        </div>
+
+    </main>
+    <script src="./js/efectos.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
